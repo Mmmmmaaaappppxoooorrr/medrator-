@@ -1,4 +1,6 @@
 dependencies:
+  discord-button-pages: 1.1.9
+  discord-buttons: 4.0.0
   discord.js: 12.3.1
   express: 4.17.1
   figlet: 1.5.0
@@ -298,6 +300,24 @@ packages:
     hasBin: true
     resolution:
       integrity: sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
+  /discord-button-pages/1.1.9:
+    dependencies:
+      discord-buttons: 3.2.1
+    dev: false
+    engines:
+      node: '>=7.8.0'
+    resolution:
+      integrity: sha512-lEnMF0zrS+mzI58lhN97fc9TX4EyaclT3Bb9mornDI6pBMQHa24zZtTM1BftWEgO0q8dg+FA1wZkRl44D2Ku/A==
+  /discord-buttons/3.2.1:
+    deprecated: 'New lib is coming! Join our support server for more help: https://discord.gg/KUS5pjyA4J'
+    dev: false
+    resolution:
+      integrity: sha512-UN5xOLG0TwTX6Qr/hjdSyP63HxOYxs5saxfdJ/vijSqjfa/yVPgxO2InKF0l8rpsDOVMsLWGDFLI3+Ax97/LOg==
+  /discord-buttons/4.0.0:
+    deprecated: 'New lib is coming! Join our support server for more help: https://discord.gg/KUS5pjyA4J'
+    dev: false
+    resolution:
+      integrity: sha512-E/eQX4Ktj7nKwNDsTfCezBNCu73FtPWJfQcpKohfl0jct/ucMUO+7uhL2MhGsZr4SCfojk7OzccAznuntB564w==
   /discord.js/12.3.1:
     dependencies:
       '@discordjs/collection': 0.1.6
@@ -1506,6 +1526,8 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  discord-button-pages: ^1.1.9
+  discord-buttons: ^4.0.0
   discord.js: ^12.3.1
   express: ^4.17.1
   figlet: ^1.5.0
