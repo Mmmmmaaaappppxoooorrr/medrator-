@@ -90,5 +90,6 @@
     `User : ${message.author.tag} (${message.author.id}) Server : ${message.guild.name} (${message.guild.id}) Command : ${command.name}`
     );
     });
+
     
     client.login(process.env.token)
